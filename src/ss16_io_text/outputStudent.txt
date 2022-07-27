@@ -1,0 +1,5 @@
+1,Nguyễn Tấn Huân,2.0
+2,Nguyễn Tất Thành,3.0
+3,Huỳnh Văn Nam,1.0
+4,Thủy Tiên,2.5
+5,Nguyễn Văn B,10.0
