@@ -1,6 +1,6 @@
 package ontap_final.model;
 
-public class Student {
+public class Student extends Person {
     private int id;
     private String name;
     private double score;
@@ -38,16 +38,13 @@ public class Student {
         this.score = score;
     }
 
+    @Override
     public String getInfo() {
         return String.format("%s,%s,%s", this.getId(), this.getName(), this.getScore());
     }
 
     @Override
     public String toString() {
-        return "\nStudent{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", score=" + score +
-                '}';
+        return String.format("%s,%s,%s", this.getId(), this.getName(), this.getScore());
     }
 }

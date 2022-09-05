@@ -7,13 +7,14 @@ public class QueueStudy {
     public static void main(String[] args) {
         Queue<Integer> integerQueue = new LinkedList<>();
 
-        integerQueue.offer(null);
-        integerQueue.offer(null);
-        integerQueue.offer(10);
-        integerQueue.offer(50);
+//        integerQueue.add(null);
+//        integerQueue.offer(null);
+//        integerQueue.offer(10);
+//        integerQueue.offer(50);
 
-        while (!integerQueue.isEmpty()) {
-            System.out.println(integerQueue.poll());
-        }
+//        while (!integerQueue.isEmpty()) {
+//            System.out.println(integerQueue.poll());
+//        }
+
     }
 }

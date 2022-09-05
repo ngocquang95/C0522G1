@@ -2,8 +2,9 @@ package ss20_design_pattern._2_factory_method;
 
 public class BankFactory {
     /**
-     * @param type = 1 => TPBANK, 2 => VietcomBank
-     * @return
+     *
+     * @param bankType
+     * @return Bank
      */
     public static Bank getBank(BankType bankType) {
         switch (bankType) {

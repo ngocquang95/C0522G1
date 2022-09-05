@@ -1,5 +1,6 @@
 package ss17_binary_file.controller;
 
+import ss17_binary_file.model.Person;
 import ss17_binary_file.model.Student;
 
 import java.io.*;
@@ -20,10 +21,12 @@ public class BinaryStreamStudy2 {
         objectOutputStream.close();
 
 
+        Person.name = "abc";
+
         // Read File
         FileInputStream fileInputStream = new FileInputStream("src/ss17_binary_file/data/data.dat");
         ObjectInputStream objectInputStream = new ObjectInputStream(fileInputStream);
-Object obj = objectInputStream.readObject();
+        Object obj = objectInputStream.readObject();
         Student list = (Student) objectInputStream.readObject();
         System.out.println(list);
 

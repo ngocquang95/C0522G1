@@ -1,5 +1,7 @@
 package ss17_binary_file.model;
 
+import java.io.Serializable;
+
 public class Student extends Person {
     private double score;
 

@@ -6,7 +6,7 @@ public class Dog extends Animal {
     private String color;
 
     public Dog() {
-        super("ABC");
+//        super("ABC");
         System.out.println("Dog()");
     }
 
@@ -15,8 +15,13 @@ public class Dog extends Animal {
     }
 
     public Dog(String name, String color) {
-        super(name);
+//        super(name);
         this.color = color;
+    }
+
+    @Override
+    Animal count() {
+        return null;
     }
 
     @Override

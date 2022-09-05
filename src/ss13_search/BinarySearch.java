@@ -24,4 +24,25 @@ public class BinarySearch {
 
         return -1;
     }
+
+
+    public int binarySearch2(int[] arr, int left, int right, int k) {
+        if (right >= left) {
+            // Tìm vị trí mid
+            int mid = (left + right) / 2;
+            // Nếu k == arr[min]
+            if (k == arr[mid]) {
+                return mid;
+            }
+
+            // Nếu k > arr[mid]
+            if (k > arr[mid]) {
+                return binarySearch2(arr, mid + 1, right, k);
+            }
+
+            // Nếu k < arr[mid]
+        }
+
+        return -1;
+    }
 }

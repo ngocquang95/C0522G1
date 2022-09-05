@@ -2,7 +2,9 @@ package ss1_introduction;
 
 public class Main {
 
+    static char x = '\u0000';
     public static void main(String[] args) {
+        System.out.println((int) x);
         System.out.println("Hello C0522G1");
         char c = 'a' - 'A';
 

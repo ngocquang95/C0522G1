@@ -37,7 +37,6 @@ public class CleanCode {
         }
     }
 
-
     // Năm nhuận
     //là năm chia hết cho 4 nhưng không chia hết cho 100 hoặc chia hết cho 400
     /**

@@ -4,14 +4,25 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class SortedList {
+//    private SortStrategy sortStrategy;
+//    List<String> items = new ArrayList<>();
+//
+//    public void setSortStrategy(SortStrategy sortStrategy) {
+//        this.sortStrategy = sortStrategy;
+//    }
+//
+//    public void sort() {
+//        sortStrategy.sort(items); // Đa hình lúc runtime
+//    }
+
     private SortStrategy sortStrategy;
-    List<String> items = new ArrayList<>();
+    List<String> strings = new ArrayList<>();
 
     public void setSortStrategy(SortStrategy sortStrategy) {
         this.sortStrategy = sortStrategy;
     }
 
     public void sort() {
-        sortStrategy.sort(items); // Đa hình lúc runtime
+        sortStrategy.sort(strings);
     }
 }

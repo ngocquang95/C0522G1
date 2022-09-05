@@ -3,14 +3,14 @@ package ss6_inheritence.example1.model;
 public class Animal {
     private String name;
 
-    public Animal() {
-        System.out.println("Animal()");
-    }
+//    public Animal() {
+//        System.out.println("Animal()");
+//    }
 
-    public Animal(String name) {
-        System.out.println("Animal(String name)");
-        this.name = name;
-    }
+//    public Animal(String name) {
+//        System.out.println("Animal(String name)");
+//        this.name = name;
+//    }
 
     public void eat() {
         System.out.println("eating...");
@@ -25,6 +25,10 @@ public class Animal {
         return "Animal{" +
                 "name='" + name + '\'' +
                 '}';
+    }
+
+    Animal count() {
+        return null;
     }
 
     public String getName() {
